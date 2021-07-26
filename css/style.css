@@ -107,7 +107,7 @@ ol {
   Helper CSS
 -----------------------*/
 .section-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .section-title.center-title {
   text-align: center;
@@ -141,6 +141,71 @@ ol {
   content: "";
 }
 
+.section-title2 {
+margin-bottom: 50px;
+}
+.section-title2.center-title {
+  text-align: center;
+}
+.section-title2.center-title h2:after {
+  right: 0;
+  margin: 0 auto;
+}
+.section-title2 span {
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.section-title2 h2 {
+  color: #ffffff;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 25px;
+}
+.section-title2 h2:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 70px;
+  content: "";
+}
+
+.section-title3 {
+  margin-bottom: 0px;
+}
+
+.section-title3.center-title {
+  text-align: center;
+}
+.section-title3.center-title h2:after {
+  right: 0;
+  margin: 0 auto;
+}
+.section-title3 span {
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  letter-spacing: 2px;
+
+}
+.section-title3 h2 {
+  color: #ffffff;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 25px;
+}
+.section-title3 h2:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 70px;
+  content: "";
+}
+
 .set-bg {
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,6 +216,9 @@ ol {
   padding-top: 100px;
 }
 
+.spad2 {
+  padding-top: 10px;
+}
 .text-white h1,
 .text-white h2,
 .text-white h3,
@@ -1054,11 +1122,8 @@ background-color:#100028 ;
   
 }
 
-.about__pic__item {
-  height: 235px;
-  margin-right: -10px;
-  margin-bottom: 20px;
-}
+
+
 .about__pic__item.about__pic__item--large {
   height: 350px;
 }
@@ -1172,7 +1237,6 @@ background-color:#100028 ;
   color: #ffffff;
   font-size: 22px;
   font-weight: 700;
-  margin-top: 26px;
   margin-bottom: 18px;
 }
 .services__item p {
